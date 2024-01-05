@@ -1,90 +1,200 @@
+
+/*BODY*/
+
+body {
+  margin: 0;
+}
+
 /*HEADER*/
 .logo {
   display: flex;
   justify-content: center;
+  padding: 15px;
+}
+
+.marge-logo {
+  margin-right: 15px;
 }
 
 .img {
-    width: 190px;
-    height: 30px;;
+  width: 190px;
+  height: 30px;
 }
 
 .btn {
-    width: 100%;
-    height: 35px;
-    border: transparent;
+  width: 100%;
+  height: 40px;
+  border: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  background-color: #eaeaea;
+  box-shadow: 0 -4px 6px -6px #333;
 }
 
-/*SECTION*/
 
+
+/*SECTION*/
 .section-color {
-    background-color: #fafafa;
+  background-color: #f6f6ff;
+  padding: 20px;
+}
+
+.section-color h2 {
+  max-width: 60%;
+  white-space: normal;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-color p {
+  max-width: 80%;
+  white-space: normal;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-violet-position {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 35px;
 }
 
-.btn-violet  {
-    color: white;
-    background-color: #9474FF;
-    border: 1px;
-    border-radius: 20px;
-    height: 40px;
-    width: 190px;
+.btn-violet {
+  color: white;
+  background-color: #9474FF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px;
+  border-radius: 20px;
+  height: 40px;
+  width: 190px;
 }
 
 /*FONCTIONNEMENT*/
-
 .btn-fonctionnement-position {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.btn-fonctionnement{
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 70px;
-    border-radius: 20px;
-    background-color: #f6f6ff;
-    color: #333;
-    font-weight: bold;
-    margin-top: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    
-    
+.btn-fonctionnement {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+  border-radius: 20px;
+  background-color: #f6f6ff;
+  color: #333;
+  font-weight: bold;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.btn-fonctionnement span {
+  color: grey;
+}
 
 .rond-un:before {
-    content:"\002776";
+  content: "❶";
+  font-size: 25px;
+  color: #9474FF;
+}
+
+.rond-deux:before {
+    content : "\002777";
     font-size: 25px;
-    color: #9474FF;   
+    color: #9474FF;
+  }
+
+.rond-trois:before {
+  content : "\002778";
+  font-size: 25px;
+  color: #9474FF;
 }
 
 .position-symbole {
-    position: relative;
+  position: relative;
 }
+
 .position-symbole-abso {
-    position: absolute;
-    left: 5px;
-    top: 30px;
+  position: absolute;
+  left: 5px;
+  top: 30px;
 }
 
-/*FOOTER*/
+.position-symbole-abso-deux {
+  position: absolute;
+    top: 115px;
+    left: 10px;
+}
 
+.position-symbole-abso-trois {
+  position: absolute;
+  top: 200px;
+  left: 10px;
+}
+
+.position-fonctionnement {
+  margin-bottom: 60px;
+}
+
+/*RESTAURANTS*/
+
+.fond-gris {
+  background-color: #f6f6ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.fond-restaurant {
+  width: 90%;
+  height: 235px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.img-restaurant {
+  width: 100%;
+  height: 170px;
+  border-top-left-radius: 10px;  
+  border-top-right-radius: 10px; 
+}
+
+.texte-restaurant-gras {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.texte-restaurant {
+  font-family: "Roboto", sans-serif;
+  margin-top: -10px;
+  margin-left: 7px;
+}
+
+.fa-heart:before {
+  content: "\f004";
+  position: relative;
+  bottom: 50px;
+  left: 290px;
+}
+  
+/*FOOTER*/
 .footer {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
 }
 
 .footer-logo {
-    filter: brightness(0) invert(1);
-    width: 90px;
-    height: 15px;
+  filter: brightness(0) invert(1);
+  width: 90px;
+  height: 15px;
 }
